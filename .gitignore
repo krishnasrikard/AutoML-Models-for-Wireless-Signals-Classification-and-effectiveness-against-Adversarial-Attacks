@@ -1,0 +1,13 @@
+# Model Training Summary
+RadioML-Dataset/AutoML/ResNet_Model
+RadioML-Dataset/AutoML/CLDNN_Model
+RadioML-Dataset/AutoML/CNN_Model
+RadioML-Dataset/AutoML/RNN_Model
+
+# Dataset
+RadioML-Dataset/Data/Dataset/RML2016.10a_dict.pkl
+RadioML-Dataset/Data/Dataset/TrainDataset.pkl
+RadioML-Dataset/Data/Clean-Data/Clean_X_Train.npy
+
+# Models
+RadioML-Dataset/Models/Clean_ResNet.h5

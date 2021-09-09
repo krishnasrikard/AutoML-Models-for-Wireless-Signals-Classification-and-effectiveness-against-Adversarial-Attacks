@@ -1,5 +1,5 @@
 # Modulation-Classification
-Classification of wireless signals using AutoML models. Understadning their effectiveness towrds adversarial-attacks.
+Classification of wireless signals using AutoML models. Understanding their effectiveness towards adversarial-attacks.
 
 ## AutoML
 - AutoML is used to generate models for classification of wireless signals. AutoKeras library is used creating AutoML for deep learning models.
@@ -19,6 +19,7 @@ Source of Dataset: https://www.deepsig.ai/datasets
 
 ## Data
 - RadioML Dataset is split into training and validation dataset with 20% of data for validation.
+- Both training and validation dataset contains smaples from all modulation schmemes for all SNRs.
 
 ## Architectures
 - AutoML Customised ResNet, AutoML Customised CLDNN, AutoML Customised CNN and AutoML Customised RNN.

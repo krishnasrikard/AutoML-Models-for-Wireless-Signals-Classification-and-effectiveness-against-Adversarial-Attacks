@@ -1,8 +1,10 @@
 # Modulation-Classification
-Classification of wireless signals using AutoML models. Understanding their effectiveness towards adversarial-attacks.
+Classification of wireless signals using AutoML models. Understanding their effectiveness towards adversarial attacks.
+
+**Paper:** [K. S. Durbha and S. Amuru, "AutoML Models for Wireless Signals Classification and their effectiveness against Adversarial Attacks," 2022 14th International Conference on COMmunication Systems & NETworkS (COMSNETS), 2022, pp. 265-269, doi: 10.1109/COMSNETS53615.2022.9668448.](https://ieeexplore.ieee.org/document/9668448)
 
 ## AutoML
-- AutoML is used to generate models for classification of wireless signals. AutoKeras library is used creating AutoML for deep learning models.
+- AutoML is used to generate models for the classification of wireless signals. AutoKeras library is used to create AutoML deep learning models.
 
 ## References
 - [How to choose a neural network architecture? – A modulation classification example](https://ieeexplore.ieee.org/document/9221167)
@@ -18,7 +20,7 @@ Source of Dataset: https://www.deepsig.ai/datasets
 - All modulation schemes and SNRs of the RadioML dataset are considered for training and testing.
 
 ## Data
-- RadioML Dataset is split into training and validation dataset with 20% of data for validation.
+- RadioML dataset is split into training and validation datasets with 20% of data for validation.
 - Both training and validation dataset contains samples from all modulation schemes for all SNRs.
 
 ## Architectures
@@ -31,7 +33,7 @@ Source of Dataset: https://www.deepsig.ai/datasets
 ## Adversarial-Attacks
 Transfer-Based Untargeted Adversarial Attacks are performed on AutoML Models.
 ### PGD-Attack
-- Projected Gradient Descent(PGD) technique is used to generate the adversarial samples and suurogate model is **Robust-CNN** from [Improvements to Modulation Classification Techniques using Deep Learning](http://noiselab.ucsd.edu/ECE228/projects/Report/76Report.pdf).
+- Projected Gradient Descent(PGD) technique is used to generate the adversarial samples and the surrogate model is **Robust-CNN** from [Improvements to Modulation Classification Techniques using Deep Learning](http://noiselab.ucsd.edu/ECE228/projects/Report/76Report.pdf).
 
 ### CW-Attack
-- Carlini and Wagner(CW) technique is used to generate the adversarial samples and suurogate model is **Robust-CNN** from [Improvements to Modulation Classification Techniques using Deep Learning](http://noiselab.ucsd.edu/ECE228/projects/Report/76Report.pdf).
+- Carlini and Wagner(CW) technique is used to generate the adversarial samples and the surrogate model is **Robust-CNN** from [Improvements to Modulation Classification Techniques using Deep Learning](http://noiselab.ucsd.edu/ECE228/projects/Report/76Report.pdf).

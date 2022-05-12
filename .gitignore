@@ -2,14 +2,8 @@ RadioML-Dataset/AutoML/ResNet_Model
 RadioML-Dataset/AutoML/CLDNN_Model
 RadioML-Dataset/AutoML/CNN_Model
 RadioML-Dataset/AutoML/RNN_Model
-RadioML-Dataset/Data/Clean-Data/Clean_X_Train.npy
-RadioML-Dataset/Models/Clean_ResNet.h5
 
 # RadioML-Dataset/AutoML/ResNet_Model filter=lfs diff=lfs merge=lfs -text
 # RadioML-Dataset/AutoML/CLDNN_Model filter=lfs diff=lfs merge=lfs -text
 # RadioML-Dataset/AutoML/CNN_Model filter=lfs diff=lfs merge=lfs -text
 # RadioML-Dataset/AutoML/RNN_Model filter=lfs diff=lfs merge=lfs -text
-# RadioML-Dataset/Data/Dataset/RML2016.10a_dict.pkl filter=lfs diff=lfs merge=lfs -text
-# RadioML-Dataset/Data/Dataset/TrainDataset.pkl filter=lfs diff=lfs merge=lfs -text
-# RadioML-Dataset/Data/Clean-Data/Clean_X_Train.npy filter=lfs diff=lfs merge=lfs -text
-# RadioML-Dataset/Models/Clean_ResNet.h5 filter=lfs diff=lfs merge=lfs -text

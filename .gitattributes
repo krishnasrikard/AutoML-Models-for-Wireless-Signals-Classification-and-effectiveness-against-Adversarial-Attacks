@@ -1,2 +1,4 @@
 RadioML-Dataset/Data/Dataset/RML2016.10a_dict.pkl filter=lfs diff=lfs merge=lfs -text
 RadioML-Dataset/Data/Dataset/TrainDataset.pkl filter=lfs diff=lfs merge=lfs -text
+RadioML-Dataset/Data/Clean-Data/Clean_X_Train.npy filter=lfs diff=lfs merge=lfs -text
+RadioML-Dataset/Models/Clean_ResNet.h5 filter=lfs diff=lfs merge=lfs -text
